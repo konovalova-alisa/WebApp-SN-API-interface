@@ -55,7 +55,7 @@ function afterSubmit(e){
             infoBox.classList.remove("d-none");
             console.log("User Id is: " + res.user_id + " and the password is " + res.password)
             document.getElementById("userID").textContent = res.user_id;
-            document.getElementById("plim").textContent = res.pasword;
+            document.getElementById("plim").textContent = res.password;
         }
         customerForm.reset();   
         buttonText.textContent = "Send";
